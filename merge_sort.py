@@ -21,4 +21,4 @@ if __name__ == "__main__":
 	s = Solution()
 	list1 = [1,2, 3]
 	list2 = [4,5,6]
-	print(s.mergeTwoLists(list1, list2,))
+	print(s.mergeTwoLists(list1, list2,)) 
