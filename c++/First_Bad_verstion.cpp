@@ -9,9 +9,10 @@ public:
         int mid = s + (e-s)/2;
         while(s<=e){
             if(isBadVersion(mid)==true){
-               if(isBadVersion(mid-1)==false){
-                    return mid;
-               }
+				if(isBadVersion(mid-1)==false)
+				{
+						return mid;
+				}
             }
             if(isBadVersion(mid)==false){
                 s = mid+1;
